@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body {
+  margin: 0px;
+  padding: 0;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.header {
+  margin: 0px;
+}
+
+.circular--portrait {
+  position: rfixed;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+}
