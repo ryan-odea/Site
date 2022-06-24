@@ -15,7 +15,7 @@ class randCircle{
   constructor(){
     this.randCol = random(myColors.length);
     this.randCol = floor(this.randCol);
-    this.switch = random([-1, 1])
+    this.switch = random(-1, 1)
     
     this.x = random(width);
     this.y = random(height);
@@ -41,9 +41,9 @@ function addAlpha(color, opacity) {
 }
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+  createCanvas(windowWidth, windowHeight);
   
-  for (var i = 0; i < 25; i++) {
+  for (var i = 0; i < 35; i++) {
   randCircles.push(new randCircle());  
     
     }
@@ -53,7 +53,7 @@ function setup() {
 }
 
 function draw() { 
-  background(255);
+  background(251, 250, 245);
  
   for (var i = 0; i < randCircles.length; i++){
     randCircles[i].drawCircle();
@@ -61,5 +61,5 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(window.innerWidth, window.innerHeight);
+  resizeCanvas(windowWidth, windowHeight);
 }

@@ -1,23 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <title>Ryan O'Dea</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-    <script src="index.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
     <meta charset="utf-8" />
-
   </head>
-    <body>
-        <section>
-            <canvas id="canvas">
-                //how to call javascript here?
-            </canvas>
-        </section>
-        <script src="index.js"></script>
-        <main>
-            <div class="circular--portrait"> <img src="images/photo.jpg" /> </div>
-        </main>
-    </body>
+  <body style="overflow-y: scroll; overflow-x: hidden">
+    <header>
+      <div class="topnav">
+        <a class="active" href="index.html">About/CV</a>
+        <a href="projects.html">Projects</a>
+        <a href="coursework.html">Coursework</a>
+      </div>
+    </header>
+    <main>
+      <div class="circular--landscape"><img src="images/photo.jpg" /></div>
+      <div class="sidebar">
+        <a>
+          <img
+            src="icons/email.png"
+            height="24px"
+            width="24px"
+            style="float: left; margin-right: 7px; margin-top: -5px"
+          />ryanodea "at" bu "dot" edu</a
+        >
+        <a
+          ><img
+            src="icons/linkedin.png"
+            height="24px"
+            width="24px"
+            style="float: left; margin-right: 7px; margin-top: -5px"
+          />/ryanodea</a
+        >
+        <a
+          ><img
+            src="icons/github.png"
+            height="24px"
+            width="24px"
+            style="
+              float: left;
+              margin-right: 7px;
+              margin-top: -5px;
+              margin-bottom: 15px;
+            "
+          />/ryan-odea</a
+        >
+      </div>
 
+      <div class="sidebar2">
+        <a>
+          <img
+            src="icons/translation.png"
+            height="24px"
+            width="24px"
+            style="float: left; margin-right: 7px; margin-top: -5px"
+          />French, English</a
+        ><a>
+          <img
+            src="icons/web-programming.png"
+            height="24px"
+            width="24px"
+            style="
+              float: left;
+              margin-right: 7px;
+              margin-top: -5px;
+              margin-bottom: 20px;
+            "
+          />Python3, R, SQL <br />
+          HTML, JavaScript, CSS <br />
+          Swift, C, C#</a
+        >
+        <a>
+          <img
+            src="icons/infographic.png"
+            height="24px"
+            width="24px"
+            style="
+              float: left;
+              margin-right: 7px;
+              margin-top: -5px;
+              margin-bottom: 20px;
+            "
+          />Shiny, Tableau <br />ggplot2, gganimate <br />
+          matplotlib</a
+        >
+        <a>
+          <img
+            src="icons/markdown.png"
+            height="24px"
+            width="24px"
+            style="
+              float: left;
+              margin-right: 7px;
+              margin-top: -5px;
+              margin-bottom: 20px;
+            "
+          />LaTeX, RMarkdown</a
+        >
+      </div>
+
+      <div class="centerbar centerAbout">
+        <h1>About</h1>
+        <p style="padding: 14px 14px; margin-bottom: 10px;">
+          Hello! My name is Ryan and I am a current Ph.D. student in Computer
+          Science at Portland State University and previously a M.S. student in
+          statistics at Boston University. Currently, I am interested in
+          researching NLP methods and their applications to
+          medical data, but on the side I like exploring art forms created by
+          random processes of various languages and VR development in the Unity
+          Engine.
+        </p>
+      </div>
+      <div class="centerbar centerEdu">
+        <h1>Education</h1>
+      </div>
+      <div class="centerbar centerExp">
+        <h1>Experience</h1>
+      </div>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
 </html>
