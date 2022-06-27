@@ -3,12 +3,15 @@
   padding: 0;
   border: 0;
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 html,
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 canvas {
@@ -22,9 +25,20 @@ h1 {
   height: 25px;
 }
 
-::-webkit-scrollbar {
-  display: none;
+h2 {
+  color: #424242;
+  padding: 20px 30px;
+  height: 17px;
 }
+
+h3 {
+  color: #424242;
+  padding: 5px 30px;
+  height: 14px;
+  margin-left: 3%;
+  margin-top: -10px;
+}
+
 .circular--landscape {
   display: inline-block;
   position: fixed;
@@ -127,23 +141,54 @@ h1 {
   padding-top: 25px;
 }
 
+
+.box {
+  max-height: calc(100vh-20px) !important;
+  margin-top: 200px;
+  overflow-y: scroll;
+  position: absolute;
+  display: grid;
+  align-items: left;
+  margin-left: calc(250px + 2%);
+  top: 0;
+  bottom: 0;
+}
+
 .centerbar {
   background-color: rgb(251, 250, 245, 0.8);
   border-radius: 20px;
-  margin-left: calc(250px + 2%);
-  width: calc(100vw - 250px - 4%);
-  position: fixed;
-  display: block;
+  width: calc(4% + 600px);
+  position: static;
+}
+
+.scrollFade {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.scrollFade--hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.scrollFade--visible {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.scrollFade--animate {
+	transition: opacity 0.4s ease-in-out;
 }
 
 .centerAbout {
-  margin-top: calc(4% + 200px);
+  height: 190px;
 }
 
 .centerEdu {
-  margin-top: calc(4% + 425px);
+  margin-top: 30px;
+  height: 400px;
 }
 
 .centerExp {
-  margin-top: calc(4% + 650px);
+  margin-top: 30px;
 }
