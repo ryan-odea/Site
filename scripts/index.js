@@ -43,7 +43,7 @@ function addAlpha(color, opacity) {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   
-  for (var i = 0; i < 35; i++) {
+  for (var i = 0; i < 50; i++) {
   randCircles.push(new randCircle());  
     
     }
