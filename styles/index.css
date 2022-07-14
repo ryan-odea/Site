@@ -159,12 +159,12 @@ h3 {
 .centerbar {
   background-color: rgb(251, 250, 245, 0.8);
   border-radius: 20px;
-  width: calc(4% + 600px);
+  width: calc(4% + 500px);
   position: static;
 }
 
 .centerAbout {
-  height: 205px;
+  height: 220px;
 }
 
 .centerEdu {
@@ -172,6 +172,15 @@ h3 {
 }
 
 .centerExp {
+  height: 300px;
+  margin-bottom: 230px;
+}
+
+.centerEduPHD {
+  height: 520px
+}
+
+.centerEduMS {
   height: 400px;
   margin-bottom: 230px;
 }
