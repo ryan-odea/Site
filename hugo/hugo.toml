@@ -1,0 +1,4 @@
+baseURL = 'https://ryanodea.dev'
+languageCode = 'en-us'
+title = 'Hello There!'
+theme='risotto'
