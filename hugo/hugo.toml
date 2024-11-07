@@ -1,4 +1,40 @@
 baseURL = 'https://ryanodea.dev'
 languageCode = 'en-us'
-title = 'Hello There!'
+title = "Ryan O'Dea"
 theme='risotto'
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    
+    [[menu.main]]
+        name = "Art"
+        url = "/art/"
+        weight = 2
+    
+    [[menu.main]]
+        name = "Software"
+        url = "/software/"
+        weight = 3
+
+    [[menu.main]]
+        name = "Publications"
+        url = "/publications"
+        weight = 4
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/ryan-odea"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:ryanodea@hsph.harvard.edu"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/ryan-odea"
