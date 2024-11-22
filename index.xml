@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ryan O&#39;Dea</title>
+    <link>https://ryanodea.dev/</link>
+    <description>Recent content on Ryan O&#39;Dea</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Nov 2024 10:48:45 -0500</lastBuildDate>
+    <atom:link href="https://ryanodea.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software</title>
+      <link>https://ryanodea.dev/software/</link>
+      <pubDate>Thu, 07 Nov 2024 10:48:45 -0500</pubDate>
+      <guid>https://ryanodea.dev/software/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/CausalInference/SEQuential&#34;&gt;SEQuential&lt;/a&gt;: Observational analogs of the ITT and per-protocol effects of hypothetical treatments strategies&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/CausalInference/gfoRmulaICE&#34;&gt;gfoRmulaICE&lt;/a&gt;: Parametric iterative conditional expectation G-Formula&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/CausalInference/pytruncreg&#34;&gt;pytruncreg&lt;/a&gt;: Estimation of one-way truncated gaussian regression models and hessian via maximum likelihood&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/CausalInference/pygformula&#34;&gt;pygformula&lt;/a&gt;: Estimation of the risk or mean of an outcome under hypothetical treatment strategies&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Art</title>
+      <link>https://ryanodea.dev/art/</link>
+      <pubDate>Thu, 07 Nov 2024 10:48:23 -0500</pubDate>
+      <guid>https://ryanodea.dev/art/</guid>
+      <description>&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;&#xA;&lt;p&gt;While I&amp;rsquo;ve explored many different data sets and visualizations, I continuously find inspiration in the power of algorithmic generation from random points and how we can find sets of beauty in the sea of infinite possibilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;gravity---imagesgravity&#34;&gt;Gravity - &lt;a href=&#34;./gravity&#34;&gt;images&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Towards the beginning of my formal Computer Science studies, I was tasked with creating parallel algorithms for &lt;a href=&#34;https://en.wikipedia.org/wiki/Mandelbrot_set&#34;&gt;Mandelbro fractal generation&lt;/a&gt; in a problem set. Fascinated by their beauty, I went searching for other unique mathematical models to study. I landed upon the &lt;a href=&#34;https://en.wikipedia.org/wiki/Ikeda_map&#34;&gt;Ikeda Map&lt;/a&gt; and went to work creating a structure to randomize points following the map. While there are infinite random possibilities, here are some of my favorites. Select physical copies will be on display in the Harvard Art Galleries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Publications</title>
+      <link>https://ryanodea.dev/publications/</link>
+      <pubDate>Thu, 07 Nov 2024 10:47:57 -0500</pubDate>
+      <guid>https://ryanodea.dev/publications/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;Chatterjee A, Stewart EA, Assoumou SA, et al. Health and Economic Outcomes of Offering Buprenorphine in Homeless Shelters in Massachusetts. JAMA Netw Open. 2024;7(10):e2437233. doi:10.1001/jamanetworkopen.2024.37233&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;presentations&#34;&gt;Presentations&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;O’Dea R, White LF, Barocas J, Linas B, Wang J. Estimation of Opioid Use Disorder Prevalence Under Unique Data Scenarios: A Simulation Study. Poster presented at: The International Network on Health and Hepatitis in Substance Users Annual Meeting; Oct 11-14, 2024; Athens, Greece.&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+  </channel>
+</rss>
