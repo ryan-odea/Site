@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Hello There!</title>
-    <link>http://localhost:1313/pages/</link>
+    <link>https://ryanodea.dev/pages/</link>
     <description>Recent content in Pages on Hello There!</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Nov 2024 11:54:40 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ryanodea.dev/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software</title>
-      <link>http://localhost:1313/pages/software/</link>
+      <link>https://ryanodea.dev/pages/software/</link>
       <pubDate>Tue, 05 Nov 2024 11:54:40 -0500</pubDate>
-      <guid>http://localhost:1313/pages/software/</guid>
+      <guid>https://ryanodea.dev/pages/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Artwork</title>
-      <link>http://localhost:1313/pages/artwork/</link>
+      <link>https://ryanodea.dev/pages/artwork/</link>
       <pubDate>Tue, 05 Nov 2024 11:54:23 -0500</pubDate>
-      <guid>http://localhost:1313/pages/artwork/</guid>
+      <guid>https://ryanodea.dev/pages/artwork/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/pages/about/</link>
+      <link>https://ryanodea.dev/pages/about/</link>
       <pubDate>Tue, 05 Nov 2024 11:53:39 -0500</pubDate>
-      <guid>http://localhost:1313/pages/about/</guid>
+      <guid>https://ryanodea.dev/pages/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/pages/publications/</link>
+      <link>https://ryanodea.dev/pages/publications/</link>
       <pubDate>Tue, 05 Nov 2024 11:53:12 -0500</pubDate>
-      <guid>http://localhost:1313/pages/publications/</guid>
+      <guid>https://ryanodea.dev/pages/publications/</guid>
       <description></description>
     </item>
   </channel>
